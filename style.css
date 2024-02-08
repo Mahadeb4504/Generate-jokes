@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(122, 176, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container{
+    width: 40%;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+p#jokes{
+    font-size: 25px;
+    font-weight: 570;
+}
+button#btn{
+    padding: 12px 16px;   
+    font-size: 1.2rem;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgba(39, 227, 227, 0.721);
+}
+button#btn:hover{
+    scale: 0.9;
+}
